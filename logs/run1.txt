@@ -1,0 +1,70 @@
+✔ TABLE_SIZE: 1500000 | SAMPLE_SIZE: 0.667 | ITERATIONS: 4
+✔ ---> Create tables <---
+✔ ** Inserting main data
+✔ ** Waiting for inserts to finish
+✔ ** Copying data
+✔ ** Database setup completed!
+✔ -------------------------
+✔ Benchmarking: V1 | iteration: 1
+✔ ** Took: 4915ms
+✔ Benchmarking: V1 | iteration: 2
+✔ ** Took: 4690ms
+✔ Benchmarking: V1 | iteration: 3
+✔ ** Took: 4668ms
+✔ Benchmarking: V1 | iteration: 4
+✔ ** Took: 4608ms
+ℹ -------------------------
+✔ Benchmarking: V2 | iteration: 1
+✔ ** Took: 3593ms
+✔ Benchmarking: V2 | iteration: 2
+✔ ** Took: 3556ms
+✔ Benchmarking: V2 | iteration: 3
+✔ ** Took: 3598ms
+✔ Benchmarking: V2 | iteration: 4
+✔ ** Took: 3607ms
+ℹ -------------------------
+✔ Benchmarking: V3 | iteration: 1
+✔ ** Took: 2762ms
+✔ Benchmarking: V3 | iteration: 2
+✔ ** Took: 2736ms
+✔ Benchmarking: V3 | iteration: 3
+✔ ** Took: 2720ms
+✔ Benchmarking: V3 | iteration: 4
+✔ ** Took: 2720ms
+ℹ -------------------------
+✔ Benchmarking: V4 | iteration: 1
+✔ ** Took: 2515ms
+✔ Benchmarking: V4 | iteration: 2
+✔ ** Took: 2457ms
+✔ Benchmarking: V4 | iteration: 3
+✔ ** Took: 2479ms
+✔ Benchmarking: V4 | iteration: 4
+✔ ** Took: 2479ms
+ℹ -------------------------
+✔ Benchmarking: V4.1 | iteration: 1
+✔ ** Took: 1578ms
+✔ Benchmarking: V4.1 | iteration: 2
+✔ ** Took: 1530ms
+✔ Benchmarking: V4.1 | iteration: 3
+✔ ** Took: 1533ms
+✔ Benchmarking: V4.1 | iteration: 4
+✔ ** Took: 1541ms
+ℹ -------------------------
+✔ Benchmarking: V5 | iteration: 1
+✔ ** Took: 1723ms
+✔ Benchmarking: V5 | iteration: 2
+✔ ** Took: 1727ms
+✔ Benchmarking: V5 | iteration: 3
+✔ ** Took: 1798ms
+✔ Benchmarking: V5 | iteration: 4
+✔ ** Took: 1789ms
+ℹ -------------------------
+✔ Benchmarking: V6 | iteration: 1
+✔ ** Took: 1750ms
+✔ Benchmarking: V6 | iteration: 2
+✔ ** Took: 1729ms
+✔ Benchmarking: V6 | iteration: 3
+✔ ** Took: 1736ms
+✔ Benchmarking: V6 | iteration: 4
+✔ ** Took: 1745ms
+✔ --- Testing finished ---

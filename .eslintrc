@@ -1,0 +1,159 @@
+{
+  "env": {
+    "node": true,
+    "es2021": true
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "plugins": [
+    "align-import",
+    "align-assignments"
+  ],
+  "rules": {
+    "semi": [
+      "error",
+      "always"
+    ],
+    "semi-spacing": [
+      "error",
+      {
+        "before": false,
+        "after": true
+      }
+    ],
+    "no-multiple-empty-lines": [
+      "error",
+      {
+        "max": 2,
+        "maxEOF": 0,
+        "maxBOF": 0
+      }
+    ],
+    "padding-line-between-statements": [
+      "error",
+      {
+        "blankLine": "always",
+        "prev": "*",
+        "next": [
+          "for",
+          "while",
+          "switch"
+        ]
+      },
+      {
+        "blankLine": "always",
+        "prev": "block-like",
+        "next": "return"
+      }
+    ],
+    "indent": [
+      "error",
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "space-in-parens": [
+      "error",
+      "always",
+      {
+        "exceptions": [
+          "{}"
+        ]
+      }
+    ],
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "array-bracket-spacing": [
+      "error",
+      "always"
+    ],
+    "key-spacing": [
+      "error",
+      {
+        "beforeColon": true,
+        "afterColon": true,
+        "align": {
+          "beforeColon": true,
+          "afterColon": true,
+          "on": "colon"
+        }
+      }
+    ],
+    "comma-spacing": [
+      "error",
+      {
+        "before": true,
+        "after": true
+      }
+    ],
+    "no-trailing-spaces": [
+      "error",
+      {
+        "ignoreComments": true
+      }
+    ],
+    "brace-style": [
+      "error",
+      "allman",
+      {
+        "allowSingleLine": true
+      }
+    ],
+    "space-before-function-paren": [
+      "error",
+      "never"
+    ],
+    "keyword-spacing": [
+      "error",
+      {
+        "before": true,
+        "after": false,
+        "overrides": {
+          "from": {
+            "after": true
+          },
+          "import": {
+            "after": true
+          },
+          "export": {
+            "after": true
+          },
+          "default": {
+            "after": true
+          },
+          "of": {
+            "after": true
+          },
+          "return": {
+            "after": true
+          },
+          "throw": {
+            "after": true
+          },
+          "case": {
+            "after": true
+          }
+        }
+      }
+    ],
+    "no-const-assign": "error",
+    "align-import/align-import": [
+      "error",
+      "always"
+    ],
+    "align-assignments/align-assignments": [
+      "warn",
+      {
+        "requiresOnly": false
+      }
+    ],
+    "quotes": [
+      "error",
+      "double"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+INSERT INTO $[to:alias] SELECT * FROM $[from:alias] ;
