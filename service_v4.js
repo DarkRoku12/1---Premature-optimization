@@ -8,7 +8,7 @@ import Files  from "./sqlfiles.js";
 
   Explanation:
   1 - Same as before, but now the database is more efficient thanks to the index.
-    - We should take into account that INSERT/UPDATE/DELETE in that table will be a bit slowed because the database 
+    - We should take into account that INSERT/UPDATE/DELETE operations in that table will be a bit slower because the database 
       now will need to update the index as well, so we always need to make indexes that we ACTUALLY/WILL use for sure.
 */
 export default async function people_by_age_v4()

@@ -60,11 +60,11 @@
 ✔ ** Took: 520ms
 ℹ -------------------------
 ✔ Benchmarking: V6 | iteration: 1
-✔ ** Took: 524ms
+✔ ** Took: 520ms
 ✔ Benchmarking: V6 | iteration: 2
-✔ ** Took: 523ms
+✔ ** Took: 518ms
 ✔ Benchmarking: V6 | iteration: 3
-✔ ** Took: 523ms
+✔ ** Took: 515ms
 ✔ Benchmarking: V6 | iteration: 4
-✔ ** Took: 517ms
+✔ ** Took: 515ms
 ✔ --- Testing finished ---

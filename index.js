@@ -12,7 +12,7 @@ import service_v3    from "./service_v3.js";
 import service_v4    from "./service_v4.js";
 import service_v4_1  from "./service_v4.1.js";
 import service_v5    from "./service_v5.js";
-import service_v6    from "./service_v5.js";
+import service_v6    from "./service_v6.js";
 
 // Execute tests //
 ( async() =>

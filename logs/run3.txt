@@ -66,5 +66,5 @@
 ✔ Benchmarking: V6 | iteration: 3
 ✔ ** Took: 1ms
 ✔ Benchmarking: V6 | iteration: 4
-✔ ** Took: 4ms
+✔ ** Took: 1ms
 ✔ --- Testing finished ---

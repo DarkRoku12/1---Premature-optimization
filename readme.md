@@ -69,7 +69,7 @@ using the pre-existing data.
 | v4              | 2515ms | 2457ms | 2479ms | 2479ms |
 | v4.1            | 1578ms | 1530ms | 1533ms | 1541ms |
 | v5              | 1723ms | 1727ms | 1798ms | 1789ms |
-| v6              | 1750ms | 1729ms | 1736ms | 1745ms |
+| v6              | 1715ms | 1720ms | 1736ms | 1730ms |
 
 For more samples you can go to `/logs/*` and read the `.txt` files.
 Also you can ran the test by yourself 😊.

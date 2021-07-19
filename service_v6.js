@@ -13,5 +13,5 @@ import Files  from "./sqlfiles.js";
 export default async function people_by_age_v6()
 {
   // Load & return people list from database.
-  return await SQL.exe.any( Files.select_pro , { table : Tables.v3 });
+  return await SQL.exe.any( Files.select_master , { table : Tables.v3 });
 };
