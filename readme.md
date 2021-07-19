@@ -1,6 +1,6 @@
 ## Demystifying Premature Optimization ##
 
-This repo contains the full code of my blog entry: <todo add link here>
+This repo contains the full code of my [blog entry](https://code.darkroku12.ovh/1-demystifying-premature-optimization/).
 
 ## Install instructions:
 
